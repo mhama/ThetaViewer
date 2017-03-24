@@ -52,7 +52,7 @@
         // 形状(球体)の生成
         function buildSphere(that, texture) {
             var radius = 1,                    // 半径
-                widthSegments  = 64,           // 横方向分割数
+                widthSegments  = 128,           // 横方向分割数
                 heightSegments = 64,           // 縦方向分割数
                 phiStart       = 0,            // φ方向の開始角度
                 phiLength      = 2 * Math.PI,  // φ方向の覆っている角度
